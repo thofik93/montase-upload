@@ -1,0 +1,43 @@
+.montase-upload {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  input[type="file"] {
+    opacity: 0;
+    position: absolute;;
+    left: -100px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    z-index: 10;
+    cursor: pointer;
+  }
+}
+
+.montase-upload__btn {
+  background-image: linear-gradient(-180deg, #ffffff 0%, #E0E0E0 100%);
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  height: 30px;
+  min-width: 98px;
+  font-family: "proximanova-medium", sans-serif;
+  padding: 6px 20px 8px 20px;
+  color: #303338;
+  letter-spacing: 0;
+}
+
+.montase-upload__error {
+  font-size: 10px;
+  color: #ff0030;
+  margin: 3px 0;
+  line-height: 12px;
+}
+
+.montase-upload__file-name {
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: 11px;
+  color: #303338;
+  margin-left: 8px;
+}
